@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewars Score</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Codewars Felhasználói Pontok</h1>
+    </header>
+    <nav>
+        <input type="text" id="username" placeholder="Felhasználónév">
+        <button onclick="fetchUserData()">Keresés</button>
+        <button onclick="showTotalPoints()">Összesített Pontok</button>
+        <button onclick="showLanguagePoints()">Pontok Nyelvek Szerint</button>
+    </nav>
+    <div id="content">
+        <p>Írd be a felhasználónevét, majd kattints a "Keresés" gombra!</p>
+    </div>
+    <div id="error"></div>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024, Developed by Sörös Joci maszekbú'</p>
+    </footer>
+</body>
+</html>
